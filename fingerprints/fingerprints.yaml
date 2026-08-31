@@ -58,7 +58,7 @@ rules:
       license: Semgrep Registry License
     paths:
       include:
-        - .circleci/config.yml
+        - '**/.circleci/config.yml'
         - circle.yml
     pattern-regex: ^.
     severity: INVENTORY
@@ -72,8 +72,8 @@ rules:
       license: Semgrep Registry License
     paths:
       include:
-        - .github/workflows/*.yaml
-        - .github/workflows/*.yml
+        - '**/.github/workflows/*.yaml'
+        - '**/.github/workflows/*.yml'
     pattern-regex: ^.
     severity: INVENTORY
   - id: cai-generic-technology-gitlab

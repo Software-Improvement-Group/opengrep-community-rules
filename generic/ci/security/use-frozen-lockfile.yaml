@@ -28,7 +28,7 @@ rules:
     metadata:
       category: security
       cwe:
-        - 'CWE-494: Download of Code Without Integrity Check'
+        - 'CWE-829: Inclusion of Functionality from Untrusted Control Sphere'
       owasp:
         - A08:2021 - Software and Data Integrity Failures
       technology:

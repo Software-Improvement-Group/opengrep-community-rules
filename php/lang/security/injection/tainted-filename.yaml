@@ -8,7 +8,7 @@ rules:
     - php
     category: security
     cwe:
-    - 'CWE-918: Server-Side Request Forgery (SSRF)'
+    - 'CWE-23: Relative Path Traversal'
     owasp:
     - A10:2021 - Server-Side Request Forgery (SSRF)
     references:
